@@ -1,0 +1,54 @@
+.dashboard-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    color: black;
+}
+
+.dashboard-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.dashboard-balance {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.dashboard-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-transactions {
+    list-style-type: none;
+    padding: 0;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-transaction-item {
+    margin-bottom: 10px;
+    position: relative;
+    padding: 10px;
+    background-color: #e9ecef;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.dashboard-transaction-type {
+    font-weight: bold;
+    color: #007bff;
+}
